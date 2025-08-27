@@ -1,0 +1,31 @@
+{
+    "input_path": "E:\\rick\\PythonProject\\SpeedGuard_AutoVido\\audio",
+    "output_path": "E:\\rick\\PythonProject\\SpeedGuard_AutoVido\\Output",
+    "supported_formats": [
+        ".mp3",
+        ".wav",
+        ".flac",
+        ".aac",
+        ".m4a",
+        ".wma",
+        ".mp4"
+    ],
+    "modules": {
+        "audio_processing": {
+            "enabled": false,
+            "silence_thresh": -30,
+            "silence_duration": 1.0
+        },
+        "screenshot": {
+            "enabled": false,
+            "offsets": [
+                -1,
+                0.5
+            ],
+            "output_subdir": "screenshots"
+        },
+        "warning_sound_detection": {
+            "enabled": true
+        }
+    }
+}

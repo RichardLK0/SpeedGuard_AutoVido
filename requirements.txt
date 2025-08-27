@@ -1,0 +1,6 @@
+openai-whisper~=20240930
+chardet~=5.2.0
+pysubs2
+moviepy>=1.0.3
+numpy>=1.24.0
+opencc-python-reimplemented
